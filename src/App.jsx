@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Navbar from './components/navbar'
 import Skill from './components/Skill'
 import Work from './components/work'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Skill />
       <Work />
+      <Contact />
     </div>
   )
 }
