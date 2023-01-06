@@ -11,7 +11,7 @@ import HTML from '../assets/html.png'
 
 const Skill = () => {
   return (
-    <div name='skills' className='w-full min-h-screen bg-[#0a192f] text-gray-300 '>
+    <div name='skills' className='w-full min-h-screen flex items-center bg-[#0a192f] text-gray-300 '>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -20,7 +20,7 @@ const Skill = () => {
                 <p className='py-4'>These are the technologies that I have experience working with</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4'>
+            <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-4'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-[80px] mx-auto' src={CSS} />
                     <p className='my-4'>CSS</p>
@@ -30,16 +30,8 @@ const Skill = () => {
                     <p className='my-4'>Firebase</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-[80px] mx-auto' src={Github} />
-                    <p className='my-4'>Github</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-[80px] mx-auto' src={Javascript} />
                     <p className='my-4'>Javascript</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-[80px] mx-auto' src={Node} />
-                    <p className='my-4'>Node</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-[80px] mx-auto' src={ReactLogo} />
