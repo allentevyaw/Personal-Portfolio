@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import Logo from '../assets/AT.png'
 import { Link } from 'react-scroll';
+import { AiOutlineClose } from 'react-icons/ai'
  
 
 const Navbar = () => {
@@ -13,11 +14,11 @@ const [nav, setNav] = useState(false)
 const handleClick = () => setNav(prevNav => !prevNav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-xl'>
         <div>
             <img src={Logo} style={{width: '90px'}}/>
         </div>
-
+        <div>
         {/* menu */}
             <ul className='hidden md:flex'>
                 <li>
@@ -49,12 +50,29 @@ const handleClick = () => setNav(prevNav => !prevNav)
 
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
-            {!nav ? <FaBars /> : <FaTimes />}
+            <FaBars size={25}/>
+        </div>
+    </div>
+
+
+{/* Mobile menu */}
+
+<div className={nav ? 'fixed left-0 top-0 w-full min-h-screen bg-black/70' : ''}>
+    <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-100' : 
+                        'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
+        <div className='flex w-full items-center justify-between'>
+        <img src={Logo} style={{width: '80px'}}/>
+        <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+            <AiOutlineClose />
+        </div>
+        </div>
+        <div className='border-b border-gray-300 my-4'>
+            <p className='w-[85%] md:w-[90%] py-4'>Let's build something legendary together</p>
         </div>
 
-        {/* Mobile menu */}
-            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>
+        <div className='flex flex-col py-4'>
+       <ul>
+       <li className='py-6 text-4xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
                     </Link> 
@@ -79,7 +97,12 @@ const handleClick = () => setNav(prevNav => !prevNav)
                     Contact
                     </Link>
                 </li>
-            </ul>
+        </ul> 
+    </div>
+    </div>
+</div>
+
+
 
         {/* Social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
