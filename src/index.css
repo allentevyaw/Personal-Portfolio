@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&family=Source+Code+Pro:wght@700&display=swap');
 
 @layer base {
   body {
-      @apply font-[Raleway];
+      @apply font-[Roboto];
       @apply bg-[#006394C]
   }
   li {
