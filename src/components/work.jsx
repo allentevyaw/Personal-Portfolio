@@ -3,10 +3,10 @@ import WorkImg from '../assets/workImg.jpeg'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full min-h-screen flex items-center text-gray-300 bg-[#2E5978]'>
+    <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#2E5978]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#64FFDA]'>
+                <p className='text-4xl font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
                     Projects
                 </p>
             </div>
@@ -18,7 +18,7 @@ const Work = () => {
                    
                    {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-2xl font-bold text-[#EDEAEA] tracking-wider'>
                             React JS Application
                         </span>
                         <div className='pt-8 text-center'>

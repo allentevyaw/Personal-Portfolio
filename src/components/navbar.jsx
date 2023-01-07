@@ -72,7 +72,7 @@ useEffect(() => {
 
 {/* Mobile menu */}
 <div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
-    <div className={nav ? 'fixed right-0 top-0 w-[60%] sm:w-[40%] h-screen bg-[#1B2739] p-10 ease-in duration-100' : 
+    <div className={nav ? 'fixed right-0 top-0 w-[50%] sm:w-[40%] h-screen bg-[#1B2739] p-10 ease-in duration-100' : 
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
@@ -121,25 +121,25 @@ useEffect(() => {
         {/* Social icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-lg'>
                     <a className='flex justify-between items-center w-full text-gray-00'
                     href='/'>
                         Linkedin <FaLinkedin size={25} />
                     </a>
                 </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-lg'>
                     <a className='flex justify-between items-center w-full text-gray-00'
                     href='https://github.com/allentevyaw'>
                         Github <FaGithub size={25} />
                     </a>
                 </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8f47b9]'>
+                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8f47b9] rounded-lg'>
                     <a className='flex justify-between items-center w-full text-gray-00'
                     href='/'>
                         Email <HiOutlineMail size={25} />
                     </a>
                 </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500'>
+                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 rounded-lg'>
                     <a className='flex justify-between items-center w-full text-gray-00'
                     href='/'>
                         Twitter <AiOutlineTwitter size={25} />

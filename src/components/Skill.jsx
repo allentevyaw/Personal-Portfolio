@@ -11,7 +11,7 @@ import HTML from '../assets/html.png'
 
 const Skill = () => {
   return (
-    <div name='skills' className='w-full min-h-screen flex items-center bg-[#2E5978] text-gray-300 '>
+    <div name='skills' className='w-full min-h-screen flex items-center bg-[#2E5978] text-[#EDEAEA]'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
