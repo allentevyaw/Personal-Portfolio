@@ -14,11 +14,13 @@ const [nav, setNav] = useState(false)
 const handleClick = () => setNav(prevNav => !prevNav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 shadow-xl'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300 shadow-xl'>
+       <div className='flex justify-between items-center w-full'>
         <div>
             <img src={Logo} style={{width: '90px'}}/>
         </div>
         <div>
+    <div>
         {/* menu */}
             <ul className='hidden md:flex'>
                 <li>
@@ -47,18 +49,18 @@ const handleClick = () => setNav(prevNav => !prevNav)
                     </Link>
                 </li>
             </ul>
-
-        {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        </div>
+                {/* Hamburger */}
+        <div onClick={handleClick} className='md:hidden'>
             <FaBars size={25}/>
         </div>
     </div>
-
+</div>
 
 {/* Mobile menu */}
 
-<div className={nav ? 'fixed left-0 top-0 w-full min-h-screen bg-black/70' : ''}>
-    <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-100' : 
+<div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
+    <div className={nav ? 'fixed left-0 top-0 w-[60%] sm:w-[40%] h-screen bg-white p-10 ease-in duration-100' : 
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
@@ -66,33 +68,33 @@ const handleClick = () => setNav(prevNav => !prevNav)
             <AiOutlineClose />
         </div>
         </div>
-        <div className='border-b border-gray-300 my-4'>
-            <p className='w-[85%] md:w-[90%] py-4'>Let's build something legendary together</p>
+        <div className='border-b border-gray-600 my-4'>
+            <p className='w-[85%] md:w-[90%] py-4 text-gray-500'>Let's build something legendary together</p>
         </div>
 
         <div className='flex flex-col py-4'>
-       <ul>
-       <li className='py-6 text-4xl'>
+       <ul className='text-gray-500'>
+       <li className='py-6 text-3xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
                     </Link> 
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
                     About
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
                     Skills
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
                     Work
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     <Link onClick={handleClick}  to="contact" smooth={true} duration={500}>
                     Contact
                     </Link>
