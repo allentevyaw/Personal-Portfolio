@@ -10,9 +10,9 @@ const Contact = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>Get in touch</p>
                 <p className='text-[#EDEAEA] py-4'>If you would like to connect, fill out the form below!</p>
             </div>
-            <input className='p-2 bg-[#ccd6f6] rounded-lg' type='text' placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6] rounded-lg' type='email' placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2 rounded-lg' name='message' rows='9' placeholder='Message'></textarea>
+            <input className='p-2 bg-[#EDEAEA] rounded-lg' type='text' placeholder='Name' name='name' />
+            <input className='my-4 p-2 bg-[#EDEAEA] rounded-lg' type='email' placeholder='Email' name='email' />
+            <textarea className='bg-[#EDEAEA] p-2 rounded-lg' name='message' rows='9' placeholder='Message'></textarea>
             <button className='text-white border-2 hover:bg-[#14B7B9] hover:border-[#14B7B9] px-4 py-3 my-8 mx-auto flex items-center rounded-xl'>Send</button>
             <div>
                 <p className='text-[#EDEAEA] text-sm hover:text-[#64FFDA] flex justify-center'>Designed & Built by Allen Tevyaw</p>
