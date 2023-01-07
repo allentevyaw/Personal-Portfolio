@@ -36,27 +36,27 @@ useEffect(() => {
     <div>
         {/* menu */}
             <ul className='hidden md:flex'>
-                <li className='hover:text-[#14B7B9]'>
+                <li className='hover:text-[#64FFDA]'>
                      <Link to="home" smooth={true} duration={500}>
                     Home
                     </Link>
                 </li>
-                <li className='hover:text-[#14B7B9]'>
+                <li className='hover:text-[#64FFDA]'>
                     <Link to="about" smooth={true} duration={500}>
                     About
                     </Link>
                 </li>
-                <li className='hover:text-[#14B7B9]'>
+                <li className='hover:text-[#64FFDA]'>
                     <Link to="skills" smooth={true} duration={500}>
                     Skills
                     </Link>
                 </li>
-                <li className='hover:text-[#14B7B9]'>
+                <li className='hover:text-[#64FFDA]'>
                     <Link to="work" smooth={true} duration={500}>
-                    Work
+                    Projects
                     </Link>
                 </li>
-                <li className='hover:text-[#14B7B9]'>
+                <li className='hover:text-[#64FFDA]'>
                     <Link to="contact" smooth={true} duration={500}>
                     Contact
                     </Link>
@@ -64,7 +64,7 @@ useEffect(() => {
             </ul>
         </div>
                 {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden text-[#14B7B9]'>
+        <div onClick={handleClick} className='md:hidden text-[#64FFDA]'>
             <FaBars size={25}/>
         </div>
     </div>
@@ -72,41 +72,41 @@ useEffect(() => {
 
 {/* Mobile menu */}
 <div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
-    <div className={nav ? 'fixed left-0 top-0 w-[60%] sm:w-[40%] h-screen bg-[#EDEAEA] p-10 ease-in duration-100' : 
+    <div className={nav ? 'fixed right-0 top-0 w-[60%] sm:w-[40%] h-screen bg-[#1B2739] p-10 ease-in duration-100' : 
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
-        <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
-            <AiOutlineClose className='text-gray-600'/>
+        <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 bg-[#EDEAEA] p-3 cursor-pointer'>
+            <AiOutlineClose className='text-[#1B2739]'/>
         </div>
         </div>
-        <div className='border-b border-[#1B2739] my-4'>
-            <p className='w-[85%] md:w-[90%] py-4 text-[#1B2739]'>Let's build something legendary together</p>
+        <div className='border-b border-[#EDEAEA] my-4'>
+            <p className='w-[85%] md:w-[90%] py-4 text-[#EDEAEA]'>Let's build something legendary together</p>
         </div>
 
         <div className='flex flex-col py-4'>
-       <ul className='text-[#1B2739]'>
-       <li className='py-6 text-3xl'>
+       <ul className='text-[#EDEAEA]'>
+       <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
                     </Link> 
                 </li>
-                <li className='py-6 text-3xl'>
+                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
                     About
                     </Link>
                 </li>
-                <li className='py-6 text-3xl'>
+                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
                     Skills
                     </Link>
                 </li>
-                <li className='py-6 text-3xl'>
+                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
                     Work
                     </Link>
                 </li>
-                <li className='py-6 text-3xl'>
+                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="contact" smooth={true} duration={500}>
                     Contact
                     </Link>
@@ -129,7 +129,7 @@ useEffect(() => {
                 </li>
                 <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                     <a className='flex justify-between items-center w-full text-gray-00'
-                    href='/'>
+                    href='https://github.com/allentevyaw'>
                         Github <FaGithub size={25} />
                     </a>
                 </li>
