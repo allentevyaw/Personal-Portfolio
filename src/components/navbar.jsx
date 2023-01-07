@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -10,11 +10,24 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 const Navbar = () => {
 const [nav, setNav] = useState(false)
+const [shadow, setShadow] = useState(false)
 
 const handleClick = () => setNav(prevNav => !prevNav)
 
+useEffect(() => {
+    const handleShadow = () => {
+        if (window.scrollY >= 90) {
+            setShadow(true)
+        } else {
+            setShadow(false)
+        }
+    }
+    window.addEventListener('scroll', handleShadow)
+}, [])
+
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300 shadow-xl'>
+    <div className={shadow ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300 shadow-xl'
+                            : 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300'}>
        <div className='flex justify-between items-center w-full'>
         <div>
             <img src={Logo} style={{width: '90px'}}/>
@@ -58,22 +71,21 @@ const handleClick = () => setNav(prevNav => !prevNav)
 </div>
 
 {/* Mobile menu */}
-
 <div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
-    <div className={nav ? 'fixed left-0 top-0 w-[60%] sm:w-[40%] h-screen bg-white p-10 ease-in duration-100' : 
+    <div className={nav ? 'fixed left-0 top-0 w-[60%] sm:w-[40%] h-screen bg-[#EDEAEA] p-10 ease-in duration-100' : 
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
         <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
-            <AiOutlineClose />
+            <AiOutlineClose className='text-gray-600'/>
         </div>
         </div>
-        <div className='border-b border-gray-600 my-4'>
-            <p className='w-[85%] md:w-[90%] py-4 text-gray-500'>Let's build something legendary together</p>
+        <div className='border-b border-[#1B2739] my-4'>
+            <p className='w-[85%] md:w-[90%] py-4 text-[#1B2739]'>Let's build something legendary together</p>
         </div>
 
         <div className='flex flex-col py-4'>
-       <ul className='text-gray-500'>
+       <ul className='text-[#1B2739]'>
        <li className='py-6 text-3xl'>
                     <Link onClick={handleClick} to="home" smooth={true} duration={500}>
                     Home
