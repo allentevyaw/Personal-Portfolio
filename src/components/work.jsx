@@ -1,5 +1,5 @@
 import React from 'react'
-import WorkImg from '../assets/workImg.jpeg'
+import NetflixImg from '../assets/netflix_build.png'
 
 const Work = () => {
   return (
@@ -13,7 +13,7 @@ const Work = () => {
 
             {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div style={{backgroundImage: `url(${WorkImg})`}} 
+                <div style={{backgroundImage: `url(${NetflixImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    {/* Hover Effects */}
@@ -23,10 +23,12 @@ const Work = () => {
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Demo</button>
                             </a>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            <a href='https://github.com/allentevyaw/Netflix-Clone'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                    Code</button>
                             </a>
                         </div>
                     </div>

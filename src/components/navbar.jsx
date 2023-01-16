@@ -76,7 +76,7 @@ useEffect(() => {
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
-        <div onClick={handleClick} className='rounded-full shadow-lg shadow-gray-400 bg-[#EDEAEA] p-3 cursor-pointer'>
+        <div onClick={handleClick} className='rounded-full bg-[#EDEAEA] p-3 cursor-pointer'>
             <AiOutlineClose className='text-[#1B2739]'/>
         </div>
         </div>

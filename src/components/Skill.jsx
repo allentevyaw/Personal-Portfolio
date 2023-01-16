@@ -21,27 +21,27 @@ const Skill = () => {
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-4'>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA] duration-500'>
                     <img className='w-[80px] mx-auto' src={CSS} />
                     <p className='my-4'>CSS</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA]  duration-500'>
                     <img className='w-[80px] mx-auto' src={Firebase} />
                     <p className='my-4'>Firebase</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA]  duration-500'>
                     <img className='w-[80px] mx-auto' src={Javascript} />
                     <p className='my-4'>Javascript</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA]  duration-500'>
                     <img className='w-[80px] mx-auto' src={ReactLogo} />
                     <p className='my-4'>React</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA]  duration-500'>
                     <img className='w-[80px] mx-auto' src={Tailwind} />
                     <p className='my-4'>Tailwind</p>
                 </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 hover:text-[#64FFDA]  duration-500'>
                     <img className='w-[80px] mx-auto' src={HTML} />
                     <p className='my-4'>HTML</p>
                 </div>
