@@ -12,9 +12,9 @@ const Home = () => {
             <p className='text-2xl text-[#64FFDA]'>Hi, my name is</p>
             <h1 className='pt-6 text-5xl sm:text-8xl font-bold text-[#EDEAEA]'>Allen Tevyaw</h1>
             <h2 className='text-4xl sm:text-6xl font-bold text-[#1B2739]'>I'm a Full Stack Developer.</h2>
-            <p className='pt-9 text-[#EDEAEA] py-4 max-w-[700px]'>I'm a full-stack developer specializing in building 
-                exceptional digital experiences. Currently, I'm focused on
-                building responsive full-stack web applications.
+            <p className='pt-9 text-[#EDEAEA] py-4 max-w-[700px]'>
+                I'm a full-stack developer specializing in React, Next.js, and UiKit.
+                Currently, I'm focused on building responsive full-stack web applications. 
             </p>
             <div className='pt-6'>
                 <button className='text-[#EDEAEA] shadow-md shadow-[#040c16] group border-2 border-white-600 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#14B7B9] hover:border-[#14B7B9]'>View Work 
