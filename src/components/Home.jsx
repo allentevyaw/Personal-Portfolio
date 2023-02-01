@@ -17,13 +17,17 @@ const Home = () => {
             With experience in React.js, Next.js, JavaScript, and iOS mobile applications, I am well-equipped to deliver high-quality, user-friendly web and mobile solutions.
             </p>
             <div className='pt-6'>
-                <button className='text-[#EDEAEA] shadow-md shadow-[#040c16] group border-2 border-white-600 px-6 py-3 my-2 flex items-center rounded-lg hover:bg-[#14B7B9] hover:border-[#14B7B9]'>View Work 
-                    <span className='group-hover:rotate-90 duration-300'>
+                <button className='text-[#EDEAEA] shadow-md shadow-[#040c16] group border-2 px-6 py-3 my-2 flex items-center rounded-lg bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 '
+                > View Work
+                    <span className='group hover:rotate-90 duration-300 '>
                     <Link to="work" smooth={true} duration={500}>
-                        <HiArrowNarrowRight className='ml-3'/>
+                        <HiArrowNarrowRight className='ml-3 '/>
                     </Link>
                     </span>
                 </button>
+
+
+
             </div>
         </div>
     </div>

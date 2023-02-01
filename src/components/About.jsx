@@ -13,22 +13,26 @@ const About = () => {
                 </div>
             </div>
 
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-4'>
-                <div className='flex justify-center'>
+            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className=''>
                     <img 
                     src={Headshot} 
                     alt='headshot'
-                    className='rounded-lg shadow-lg shadow-black opacity-30 hover:opacity-100'/>
+                    className='rounded-lg shadow-lg shadow-black opacity-40 
+                    hover:opacity-100 ease-out duration-500'/>
                 </div>
+
+
+
                 <div>
-                I am a highly skilled full stack web developer with a passion 
+                <p>I am a highly skilled full stack web developer with a passion 
                 for creating innovative and user-friendly websites. With experience 
-                in React.js, JavaScript, HTML, Node, CSS, and iOS mobile applications, I bring a 
-                wealth of knowledge and expertise to every project I work on. My attention 
-                to detail and dedication to staying up-to-date with the latest technologies 
+                in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Node, CSS, and iOS </span> mobile applications, I bring a 
+                wealth of knowledge and expertise to every project I work on.</p>
+                <p className='pt-4'>My attention to detail and dedication to staying up-to-date with the latest technologies 
                 ensure that I deliver high-quality and effective solutions to meet my clients' 
                 needs. I am driven by a desire to make a difference and bring ideas to life through 
-                the power of technology.
+                the power of technology.</p>
                 </div>
             </div>
         </div>
