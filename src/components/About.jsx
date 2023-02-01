@@ -14,15 +14,18 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                 <div className='sm:text-right text-4xl  font-bold'>
                     <p>
-                     Hi! I'm Allen. Nice to meet you. Please take a look around.   
+                     Hi! I'm Allen. Nice to meet you!  
                     </p>
                 </div>
                 <div>
-                    I am passionate about building excellent software that improves
-                    the lives of those around me. I specialize in creating software
-                    for clients ranging from individuals and small-businesses 
-                    all the way to large enterprise corporations. What would you do if 
-                    you had a software expert available at your fingertips?
+                I am a highly skilled full stack web developer with a passion 
+                for creating innovative and user-friendly websites. With experience 
+                in React.js, JavaScript, HTML, Node, CSS, and iOS mobile applications, I bring a 
+                wealth of knowledge and expertise to every project I work on. My attention 
+                to detail and dedication to staying up-to-date with the latest technologies 
+                ensure that I deliver high-quality and effective solutions to meet my clients' 
+                needs. I am driven by a desire to make a difference and bring ideas to life through 
+                the power of technology.
                 </div>
             </div>
         </div>
