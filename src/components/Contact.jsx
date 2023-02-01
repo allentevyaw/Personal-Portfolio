@@ -13,7 +13,7 @@ const Contact = () => {
             <input className='p-2 bg-[#EDEAEA] rounded-lg' type='text' placeholder='Name' name='name' />
             <input className='my-4 p-2 bg-[#EDEAEA] rounded-lg' type='email' placeholder='Email' name='email' />
             <textarea className='bg-[#EDEAEA] p-2 rounded-lg' name='message' rows='9' placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-[#14B7B9] hover:border-[#14B7B9] px-4 py-3 my-8 mx-auto flex items-center rounded-xl'>Send</button>
+            <button className='text-white border-2 bg-[#14B7B9] px-4 py-3 my-8 mx-auto flex items-center rounded-xl hover:opacity-75'>Send</button>
             <div>
                 <p className='text-[#EDEAEA] text-sm hover:text-[#64FFDA] flex justify-center'>Designed & Built by Allen Tevyaw</p>
             </div>

@@ -26,6 +26,18 @@ const Home = () => {
                     </span>
                 </button>
 
+                <button class="shadow-md shadow-[#040c16] flex items-center p-0.5 overflow-hidden text-md font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800"
+                >
+                        <span class=" px-5 py-2.5 transition-all ease-in duration-75 bg-[#1B2739] rounded-md group-hover:bg-opacity-0">
+                                <Link to="work" smooth={true} duration={500}>
+                            Check Out My Work
+                            <span className='group hover:rotate-90 duration-300 flex justify-center'>
+                                     <HiArrowNarrowRight className='ml-3'/>
+                            </span>
+                                </Link>
+                        </span>
+                </button>
+
 
 
             </div>
