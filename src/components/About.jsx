@@ -1,4 +1,7 @@
 import React from 'react'
+import Headshot from '../assets/headshot.png'
+
+
 
 const About = () => {
   return (
@@ -8,14 +11,14 @@ const About = () => {
                 <div className='sm:text-right pb-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#64FFDA]'>About</p>
                 </div>
-                <div></div>
             </div>
 
-            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl  font-bold'>
-                    <p>
-                     Hi! I'm Allen. Nice to meet you!  
-                    </p>
+            <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-4'>
+                <div className='flex justify-center'>
+                    <img 
+                    src={Headshot} 
+                    alt='headshot'
+                    className='rounded-lg shadow-lg shadow-black opacity-30 hover:opacity-100'/>
                 </div>
                 <div>
                 I am a highly skilled full stack web developer with a passion 
