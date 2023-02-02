@@ -13,7 +13,7 @@ const [nav, setNav] = useState(false)
 const [shadow, setShadow] = useState(false)
 
 
-const [hamburger, sethamburger] = useState(true)
+const [hamburger, sethamburger] = useState(false)
 const handleHamburgerClick = () => {
     sethamburger(prevState => !prevState)
 }
@@ -76,37 +76,34 @@ useEffect(() => {
                 {/* Hamburger */}
         <div onClick={''} className='md:hidden text-[#64FFDA]'>
             {/* <FaBars size={25}/> */}
+        </div>
+    </div>
+</div>
 
-            <button
-      className="flex flex-col h-12 w-12 justify-center items-center group md:hidden"
-      onClick={handleHamburgerClick}
+<button
+      className="flex flex-col h-12 w-12 justify-center items-center group md:hidden z-50"
+      onClick={handleClick}
     >
       <div
         className={`${genericHamburgerLine} ${
-          hamburger
+          nav
             ? "rotate-45 translate-y-3"
             : ""
         }`}
       />
       <div
         className={`${genericHamburgerLine} ${
-          hamburger ? "opacity-0" : ""
+            nav ? "opacity-0" : ""
         }`}
       />
       <div
         className={`${genericHamburgerLine} ${
-          hamburger
+            nav
             ? "-rotate-45 -translate-y-3"
             : ""
         }`}
       />
     </button>
-
-
-
-        </div>
-    </div>
-</div>
 
 {/* Mobile menu */}
 <div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
@@ -114,9 +111,9 @@ useEffect(() => {
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
-        <div onClick={handleClick} className='rounded-full bg-[#EDEAEA] p-3 cursor-pointer'>
+        {/* <div onClick={handleClick} className='rounded-full bg-[#EDEAEA] p-3 cursor-pointer'>
             <AiOutlineClose className='text-[#1B2739]'/>
-        </div>
+        </div> */}
         </div>
         <div className='border-b border-[#EDEAEA] my-4'>
             <p className='w-[85%] md:w-[90%] py-4 text-[#EDEAEA]'>Let's build something legendary together</p>
