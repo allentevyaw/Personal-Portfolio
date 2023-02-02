@@ -12,6 +12,16 @@ const Navbar = () => {
 const [nav, setNav] = useState(false)
 const [shadow, setShadow] = useState(false)
 
+
+const [hamburger, sethamburger] = useState(true)
+const handleHamburgerClick = () => {
+    sethamburger(prevState => !prevState)
+}
+
+const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300 bg-[#64FFDA]`;
+
+
+
 const handleClick = () => setNav(prevNav => !prevNav)
 
 useEffect(() => {
@@ -64,8 +74,36 @@ useEffect(() => {
             </ul>
         </div>
                 {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden text-[#64FFDA]'>
-            <FaBars size={25}/>
+        <div onClick={''} className='md:hidden text-[#64FFDA]'>
+            {/* <FaBars size={25}/> */}
+
+            <button
+      className="flex flex-col h-12 w-12 justify-center items-center group md:hidden"
+      onClick={handleHamburgerClick}
+    >
+      <div
+        className={`${genericHamburgerLine} ${
+          hamburger
+            ? "rotate-45 translate-y-3"
+            : ""
+        }`}
+      />
+      <div
+        className={`${genericHamburgerLine} ${
+          hamburger ? "opacity-0" : ""
+        }`}
+      />
+      <div
+        className={`${genericHamburgerLine} ${
+          hamburger
+            ? "-rotate-45 -translate-y-3"
+            : ""
+        }`}
+      />
+    </button>
+
+
+
         </div>
     </div>
 </div>

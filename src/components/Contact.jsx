@@ -15,8 +15,8 @@ const Contact = () => {
             <textarea className='bg-[#EDEAEA] p-2 rounded-lg' name='message' rows='9' placeholder='Message'></textarea>
             {/* <button className='text-white border-2 bg-[#14B7B9] px-4 py-3 my-8 mx-auto flex items-center rounded-xl hover:opacity-75'>Send</button> */}
 
-            <button class="text-[#EDEAEA] my-8 mx-auto shadow-md shadow-[#040c16] flex items-center p-0.5 overflow-hidden text-md font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
-                        <span class="hover:text-white px-5 py-2.5 transition-all ease-in 
+            <button className="text-[#EDEAEA] my-8 mx-auto shadow-md shadow-[#040c16] flex items-center p-0.5 overflow-hidden text-md font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                        <span className="hover:text-white px-5 py-2.5 transition-all ease-in 
                         duration-75 bg-[#1B2739] rounded-md group-hover:bg-opacity-0 ">
                             Send
                         </span>
