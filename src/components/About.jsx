@@ -27,7 +27,7 @@ const About = () => {
                 <div>
                 <p>I am a highly skilled full stack web developer with a passion 
                 for creating innovative and user-friendly websites. With experience 
-                in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Node, CSS, and iOS </span> mobile applications, I bring a 
+                in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Next.js, CSS, and iOS  mobile applications</span>, I bring a 
                 wealth of knowledge and expertise to every project I work on.</p>
                 <p className='pt-4'>My attention to detail and dedication to staying up-to-date with the latest technologies 
                 ensure that I deliver high-quality and effective solutions to meet my clients' 

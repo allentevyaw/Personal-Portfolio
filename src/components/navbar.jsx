@@ -5,7 +5,6 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import Logo from '../assets/AT.png'
 import { Link } from 'react-scroll';
-import { AiOutlineClose } from 'react-icons/ai'
  
 
 const Navbar = () => {
@@ -19,9 +18,6 @@ const handleHamburgerClick = () => {
 }
 
 const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300 bg-[#64FFDA]`;
-
-
-
 const handleClick = () => setNav(prevNav => !prevNav)
 
 useEffect(() => {
@@ -35,22 +31,22 @@ useEffect(() => {
     window.addEventListener('scroll', handleShadow)
 }, [])
 
+
+
   return (
     <div className={shadow ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300 shadow-xl z-50'
                             : 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300'}>
        <div className='flex justify-between items-center w-full'>
-        <div>
-            <img src={Logo} style={{width: '90px'}}/>
-        </div>
-        <div>
+            <div className='cursor-pointer'>
+                <Link to="home" smooth={true} duration={500}>
+                    <img src={Logo} style={{width: '90px'}}/>
+                </Link>
+            </div>
+    <div>
     <div>
         {/* menu */}
             <ul className='hidden md:flex'>
-                <li className='hover:text-[#64FFDA]'>
-                     <Link to="home" smooth={true} duration={500}>
-                    Home
-                    </Link>
-                </li>
+
                 <li className='hover:text-[#64FFDA]'>
                     <Link to="about" smooth={true} duration={500}>
                     About
@@ -58,7 +54,7 @@ useEffect(() => {
                 </li>
                 <li className='hover:text-[#64FFDA]'>
                     <Link to="skills" smooth={true} duration={500}>
-                    Skills
+                    Experience
                     </Link>
                 </li>
                 <li className='hover:text-[#64FFDA]'>
@@ -111,21 +107,14 @@ useEffect(() => {
                         'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
-        {/* <div onClick={handleClick} className='rounded-full bg-[#EDEAEA] p-3 cursor-pointer'>
-            <AiOutlineClose className='text-[#1B2739]'/>
-        </div> */}
+
         </div>
         <div className='border-b border-[#EDEAEA] my-4'>
-            <p className='w-[85%] md:w-[90%] py-4 text-[#EDEAEA]'>Let's build something legendary together</p>
         </div>
 
         <div className='flex flex-col py-4'>
        <ul className='text-[#EDEAEA]'>
-       <li className='py-6 text-2xl hover:text-[#64FFDA]'>
-                    <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-                    Home
-                    </Link> 
-                </li>
+
                 <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
                     About
@@ -133,12 +122,12 @@ useEffect(() => {
                 </li>
                 <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="skills" smooth={true} duration={500}>
-                    Skills
+                    Experience
                     </Link>
                 </li>
                 <li className='py-6 text-2xl hover:text-[#64FFDA]'>
                     <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
-                    Work
+                    Projects
                     </Link>
                 </li>
                 <li className='py-6 text-2xl hover:text-[#64FFDA]'>
