@@ -47,22 +47,22 @@ useEffect(() => {
         {/* menu */}
             <ul className='hidden md:flex'>
 
-                <li className='hover:text-[#64FFDA]'>
+                <li className='hover:text-[#64FFDA] link-underline'>
                     <Link to="about" smooth={true} duration={500}>
                     About
                     </Link>
                 </li>
-                <li className='hover:text-[#64FFDA]'>
+                <li className='hover:text-[#64FFDA] link-underline'>
                     <Link to="skills" smooth={true} duration={500}>
                     Experience
                     </Link>
                 </li>
-                <li className='hover:text-[#64FFDA]'>
+                <li className='hover:text-[#64FFDA] link-underline'>
                     <Link to="work" smooth={true} duration={500}>
                     Projects
                     </Link>
                 </li>
-                <li className='hover:text-[#64FFDA]'>
+                <li className='hover:text-[#64FFDA] link-underline'>
                     <Link to="contact" smooth={true} duration={500}>
                     Contact
                     </Link>
