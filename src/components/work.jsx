@@ -1,17 +1,17 @@
 import React from 'react'
 import NetflixImg from '../assets/netflix_build.png'
-import MemeImg from '../assets/meme-generator.png'
+import Meme from '../assets/meme.png'
 import Ecom from '../assets/ecom.png'
 import {FiGithub} from 'react-icons/fi'
 import {CgWebsite} from 'react-icons/cg'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#2E5978]'>
+    <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#0f161a]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
-                    Some things I have built
+                <p className='text-3xl font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
+                    Some things I have built 
                 </p>
             </div>
 
@@ -44,9 +44,9 @@ const Work = () => {
 
 
 
-<div class="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
-  <img src={Ecom} class="w-full h-full" alt="E-Commerce" />
-    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
+<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
+  <img src={Ecom} className="w-full h-full" alt="E-Commerce" />
+    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
 
     <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
@@ -66,9 +66,9 @@ const Work = () => {
     <h1>React.js</h1>
 </div>
 
-<div class="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
-  <img src={NetflixImg} class="w-full h-full" alt="Netflix" />
-  <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
+<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
+  <img src={NetflixImg} className="w-full h-full" alt="Netflix" />
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
 
   <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
@@ -78,6 +78,27 @@ const Work = () => {
         <div></div>
         <div className='flex'>
         <a href='https://github.com/allentevyaw/Netflix-Clone'>
+            <FiGithub className='text-2xl hover:text-sky-300 pr-1'/>
+        </a>
+            <CgWebsite className='text-2xl hover:text-sky-300'/>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
+  <img src={Meme} className="w-full h-full" alt="Netflix" />
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
+
+  <div className='p-3'>
+    <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
+    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Meme Generator</h1>
+    
+    <div className='absolute bottom-0 right-0 p-2'>
+        <div></div>
+        <div className='flex'>
+        <a href='https://github.com/allentevyaw/Meme-generator'>
             <FiGithub className='text-2xl hover:text-sky-300 pr-1'/>
         </a>
             <CgWebsite className='text-2xl hover:text-sky-300'/>

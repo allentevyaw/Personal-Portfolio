@@ -69,10 +69,6 @@ useEffect(() => {
                 </li>
             </ul>
         </div>
-                {/* Hamburger */}
-        <div onClick={''} className='md:hidden text-[#64FFDA]'>
-            {/* <FaBars size={25}/> */}
-        </div>
     </div>
 </div>
 
