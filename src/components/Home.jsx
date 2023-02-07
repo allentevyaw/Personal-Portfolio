@@ -10,7 +10,7 @@ const Home = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-2xl text-[#64FFDA]'>Welcome, my name is</p>
-            <h1 className='pt-6 text-5xl sm:text-8xl font-bold text-[#EDEAEA]'>Allen Tevyaw</h1>
+            <h1 className='pt-6 text-5xl sm:text-8xl font-bold text-[#EDEAEA] text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 animate-text'>Allen Tevyaw</h1>
             <h2 className='text-4xl sm:text-6xl font-bold text-[#1B2739]'>Full Stack Developer.</h2>
             <p className='pt-9 text-[#EDEAEA] py-4 max-w-[700px]'>
             As a full-stack developer, I bring a wealth of technical expertise and creative problem solving to the table. 
