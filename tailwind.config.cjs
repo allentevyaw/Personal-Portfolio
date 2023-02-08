@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       'animation': {
-        'text':'text 5s ease infinite',
+        'text':'text 5s ease infinite ',
+    },
+    'colors': {
+        'offWhite': 'hsla(0, 0%, 100%, 0.8)'
     },
     'keyframes': {
         'text': {

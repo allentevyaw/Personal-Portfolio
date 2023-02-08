@@ -87,26 +87,7 @@ const Work = () => {
   </div>
 </div>
 
-<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
-  <img src={Meme} className="w-full h-full" alt="Netflix" />
-  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
 
-  <div className='p-3'>
-    <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
-    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Meme Generator</h1>
-    
-    <div className='absolute bottom-0 right-0 p-2'>
-        <div></div>
-        <div className='flex'>
-        <a href='https://github.com/allentevyaw/Meme-generator'>
-            <FiGithub className='text-2xl hover:text-sky-300 pr-1'/>
-        </a>
-            <CgWebsite className='text-2xl hover:text-sky-300'/>
-        </div>
-    </div>
-    </div>
-  </div>
-</div>
 
 
 

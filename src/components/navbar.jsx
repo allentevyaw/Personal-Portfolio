@@ -34,8 +34,8 @@ useEffect(() => {
 
 
   return (
-    <div className={shadow ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300 shadow-xl z-50'
-                            : 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2E5978] text-gray-300'}>
+    <div className={shadow ? 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0f161a] text-gray-300 shadow-xl z-50'
+                            : 'fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0f161a] text-gray-300'}>
        <div className='flex justify-between items-center w-full'>
             <div className='cursor-pointer'>
                 <Link to="home" smooth={true} duration={500}>

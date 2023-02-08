@@ -7,7 +7,7 @@
 @layer base {
   body {
       @apply font-[Roboto];
-      @apply bg-[#2E5978]
+      @apply bg-[#0f161a]
   }
   li {
       @apply px-4;
@@ -20,14 +20,6 @@
   background-size: cover;
   background-position: center;
   height: 250px;
-}
-
-.content-div:hover {
-  background-image: linear-gradient(
-    to left,
-    #14B7B9,
-    #2E5978
-  )!important;
 }
 
 .link-underline {
