@@ -168,6 +168,26 @@ useEffect(() => {
             </ul>
         </div>
 
+
+        <div className='hidden fixed md:flex flex-col left-0 bottom-[10%] pl-2'>
+            <a className='pb-4'>
+                <AiOutlineTwitter className='hover:text-[#64FFDA] text-2xl'/>
+            </a>
+            <a className='pb-4'>
+                <HiOutlineMail size={25} className='hover:text-[#64FFDA] text-2xl' />
+            </a>
+            <a className='pb-4'>
+                <FaGithub size={25} className='hover:text-[#64FFDA] text-2xl' />
+            </a>
+            <a>
+                <FaLinkedin size={25} className='hover:text-[#64FFDA] text-2xl' />
+            </a>
+                
+
+
+                
+        </div>
+
     </div>
   )
 }
