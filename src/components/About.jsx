@@ -8,11 +8,9 @@ const About = () => {
     <div name='about' className='w-full min-h-screen flex items-center bg-[#0f161a] text-[#EDEAEA]'>
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2'>
-                <div className='sm:text-right pb-8 pl-4'>
-                    <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA]'>About Me </p>
-
-                    
-                    
+                <div className='sm:text-right pb-8 pl-4 items-center '>
+                    <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA]'>About Me 
+                    </p>
                 </div>
             </div>
 

@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from 'react'
-import { FaBars, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {AiOutlineTwitter} from 'react-icons/ai'
+import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 import Logo from '../assets/AT.png'
 import { Link } from 'react-scroll';
  
@@ -137,59 +136,57 @@ useEffect(() => {
 </div>
 
 
-
-        {/* Social icons */}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-            <ul>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-lg'>
-                    <a className='flex justify-between items-center w-full text-gray-00'
-                    href='/'>
-                        Linkedin <FaLinkedin size={25} />
-                    </a>
-                </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-lg'>
-                    <a className='flex justify-between items-center w-full text-gray-00'
-                    href='https://github.com/allentevyaw'>
-                        Github <FaGithub size={25} />
-                    </a>
-                </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8f47b9] rounded-lg'>
-                    <a className='flex justify-between items-center w-full text-gray-00'
-                    href='/'>
-                        Email <HiOutlineMail size={25} />
-                    </a>
-                </li>
-                <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 rounded-lg'>
-                    <a className='flex justify-between items-center w-full text-gray-00'
-                    href='/'>
-                        Twitter <AiOutlineTwitter size={25} />
-                    </a>
-                </li>
-            </ul>
-        </div>
-
-
-        <div className='hidden fixed md:flex flex-col left-0 bottom-[10%] pl-2'>
-            <a className='pb-4'>
+        <div className='hidden fixed md:flex flex-col left-0 bottom-[-10%] pl-2'>
+            <a className='pb-4 hover:pb-5 duration-300'>
                 <AiOutlineTwitter className='hover:text-[#64FFDA] text-2xl'/>
             </a>
-            <a className='pb-4'>
-                <HiOutlineMail size={25} className='hover:text-[#64FFDA] text-2xl' />
+            <a className='pb-4 hover:pb-5 duration-300'>
+                <HiOutlineMail className='hover:text-[#64FFDA] text-2xl' />
             </a>
-            <a className='pb-4'>
-                <FaGithub size={25} className='hover:text-[#64FFDA] text-2xl' />
+            <a className='pb-4 hover:pb-5 duration-300'>
+                <FaGithub className='hover:text-[#64FFDA] text-2xl' />
             </a>
-            <a>
-                <FaLinkedin size={25} className='hover:text-[#64FFDA] text-2xl' />
+            <a className='pb-1 hover:pb-2 duration-300'>
+                <AiOutlineInstagram className='hover:text-[#64FFDA] text-2xl' />
             </a>
                 
-
-
-                
+            <hr class="w-0 h-24 ml-2.5 my-8 border-l-2 border-1 dark:border-gray-700"/>   
         </div>
-
     </div>
   )
 }
 
 export default Navbar
+
+
+
+
+        {/* Social icons */}
+        // <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        //     <ul>
+        //         <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 rounded-lg'>
+        //             <a className='flex justify-between items-center w-full text-gray-00'
+        //             href='/'>
+        //                 Linkedin <FaLinkedin size={25} />
+        //             </a>
+        //         </li>
+        //         <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] rounded-lg'>
+        //             <a className='flex justify-between items-center w-full text-gray-00'
+        //             href='https://github.com/allentevyaw'>
+        //                 Github <FaGithub size={25} />
+        //             </a>
+        //         </li>
+        //         <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8f47b9] rounded-lg'>
+        //             <a className='flex justify-between items-center w-full text-gray-00'
+        //             href='/'>
+        //                 Email <HiOutlineMail size={25} />
+        //             </a>
+        //         </li>
+        //         <li className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 rounded-lg'>
+        //             <a className='flex justify-between items-center w-full text-gray-00'
+        //             href='/'>
+        //                 Twitter <AiOutlineTwitter size={25} />
+        //             </a>
+        //         </li>
+        //     </ul>
+        // </div>
