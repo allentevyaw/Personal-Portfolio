@@ -1,5 +1,7 @@
 import React from 'react'
-import {AiOutlineTwitter, AiOutlineInstagram, AiOutlineMail, AiOutlineLinkedin} from 'react-icons/ai'
+import {AiOutlineTwitter, AiOutlineInstagram, AiOutlineMail} from 'react-icons/ai'
+import { FaGithub } from 'react-icons/fa';
+
 
 const Contact = () => {
   return (
@@ -29,29 +31,29 @@ const Contact = () => {
 <div className="px-4 md:px-12 pb-8">
 
 <div className='pb-8'>
-                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>Reach Out</p>
+                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>Let's Connect</p>
                 <p className='text-[#EDEAEA] py-4'>Let's build something! Fill out the contact form below 
                 or reach out on one of my social media accounts</p>
             </div>
 
-      <div className="text-white rounded-lg shadow-md shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-2 mb-4">
+      <div className="text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-1 mb-4">
           <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineInstagram className="w-8 h-8 mb-2 mx-auto cursor-pointer"/>
+            <AiOutlineInstagram className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
             <h6 className="font-medium">Instagram</h6>
           </div>
           <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer"/>
+            <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
             <h6 className="font-medium">Twitter</h6>
           </div>
           <div className="mb-6 md:mb-0 text-center mx-auto">
-            <AiOutlineLinkedin 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer"/>
+            <FaGithub 
+            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
             <h6 className="font-medium">Linkedin</h6>
           </div>
           <div className="text-center mx-auto">
             <AiOutlineMail 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer"/>
+            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
             <h6 className="font-medium">Email</h6>
           </div>
         </div>
@@ -114,15 +116,7 @@ const Contact = () => {
               focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
             " rows="3" placeholder="Message"></textarea>
             </div>
-            <div className=" text-center mb-6">
-              <input type="checkbox"
-                className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm
-                 bg-white checked:bg-[#027E72] checked:border-[#027E72] focus:outline-none 
-                 transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 
-                 cursor-pointer"/>
-              <label className="inline-block text-gray-800">Send me a copy of this
-                message</label>
-            </div>
+
             <button className="text-[#EDEAEA] my-8 mx-auto shadow-md shadow-[#040c16] flex items-center p-0.5 overflow-hidden text-md font-medium rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200">
                         <span className="hover:text-white px-5 py-2.5 transition-all ease-in 
                         duration-75 bg-[#1B2739] rounded-md group-hover:bg-opacity-0 ">

@@ -1,5 +1,6 @@
 import React from 'react'
 import Headshot from '../assets/headshot.png'
+import {AiOutlineCheck} from 'react-icons/ai'
 
 
 
@@ -31,7 +32,7 @@ const About = () => {
                 for creating innovative and user-friendly websites. With experience 
                 in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Next.js, CSS, and iOS  mobile applications</span>, I bring a 
                 wealth of knowledge and expertise to every project I work on.</p>
-                <p className='pt-4'>My attention to detail and dedication to staying up-to-date with the latest technologies 
+                <p className='pt-2'>My attention to detail and dedication to staying up-to-date with the latest technologies 
                 ensure that I deliver high-quality and effective solutions to meet my clients' 
                 needs. I am driven by a desire to make a difference and bring ideas to life through 
                 the power of technology.</p>
