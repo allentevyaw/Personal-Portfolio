@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       'animation': {
         'text':'text 5s ease infinite ',
+        'fadeIn': 'fadeIn 2s ease-in forwards',
     },
     'colors': {
         'offWhite': 'hsla(0, 0%, 100%, 0.8)'
@@ -22,6 +23,10 @@ module.exports = {
                'background-size':'200% 200%',
                 'background-position': 'right center'
             }
+        },
+        'fadeIn': {
+          '0%': { 'opacity': '0' },
+          '100%': { 'opacity': '1' },
         },
     }
     },

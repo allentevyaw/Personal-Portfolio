@@ -150,7 +150,7 @@ useEffect(() => {
                 <AiOutlineInstagram className='hover:text-[#64FFDA] text-2xl' />
             </a>
                 
-            <hr class="w-0 h-24 ml-2.5 my-8 border-l-2 border-1 dark:border-gray-700"/>   
+            <hr className="w-0 h-24 ml-2.5 my-8 border-l-2 border-1 dark:border-gray-700"/>   
         </div>
     </div>
   )

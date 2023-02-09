@@ -1,12 +1,19 @@
 import React from 'react'
 import Headshot from '../assets/headshot.png'
 import {AiOutlineCheck} from 'react-icons/ai'
+import { useInView } from 'react-intersection-observer'
 
 
 
 const About = () => {
+const {ref, inView } = useInView()
+
+
   return (
-    <div name='about' className='w-full min-h-screen flex items-center bg-[#0f161a] text-[#EDEAEA]'>
+    <div 
+    name='about' 
+    ref={ref}
+    className='w-full min-h-screen flex items-center bg-[#0f161a] text-[#EDEAEA]'>
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2'>
                 <div className='sm:text-right pb-8 pl-4 items-center '>
@@ -27,7 +34,7 @@ const About = () => {
 
 
 
-                <div>
+                <div className={`${inView ? 'animate-fadeIn' : ''}`}>
                 <p>I am a highly skilled full stack web developer with a passion 
                 for creating innovative and user-friendly websites. With experience 
                 in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Next.js, CSS, and iOS  mobile applications</span>, I bring a 
