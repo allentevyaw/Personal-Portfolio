@@ -10,13 +10,9 @@ import { useInView } from 'react-intersection-observer'
 const Work = () => {
 const {ref, inView } = useInView(false)
 
-
-
-
-  return (
+return (
     <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
-        <div ref={ref}
-        className={`${inView ? 'animate-fadeIn' : ''}`}>
+        <div ref={ref}>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p 
@@ -26,7 +22,7 @@ const {ref, inView } = useInView(false)
             </div>
 
             {/* Container */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'>
+            <div className={`${inView ? 'animate-fadeIn grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center' : 'grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'}`}>
                 {/* <div style={{backgroundImage: `url(${NetflixImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
