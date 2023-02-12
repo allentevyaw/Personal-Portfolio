@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       'animation': {
-        'text':'text 4s ease infinite ',
-        'fadeIn': 'fadeIn 3s ease-in forwards',
+        'text':'text 3s ease infinite ',
+        'fadeIn': 'fadeIn 2s ease-in forwards',
     },
     'colors': {
         'offWhite': 'hsla(0, 0%, 100%, 0.8)'

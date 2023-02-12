@@ -4,13 +4,23 @@ import Meme from '../assets/meme.png'
 import Ecom from '../assets/ecom.png'
 import {FiGithub} from 'react-icons/fi'
 import {CgWebsite} from 'react-icons/cg'
+import { useInView } from 'react-intersection-observer'
+
 
 const Work = () => {
+const {ref, inView } = useInView(false)
+
+
+
+
   return (
     <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
+        <div ref={ref}
+        className={`${inView ? 'animate-fadeIn' : ''}`}>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
+                <p 
+                className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
                     Some things I have built 
                 </p>
             </div>
@@ -95,6 +105,7 @@ const Work = () => {
 
             </div>
 
+        </div>
         </div>
     </div>
   )
