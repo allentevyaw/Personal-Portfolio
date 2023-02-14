@@ -40,6 +40,15 @@ const {ref, inView } = useInView()
                 ensure that I deliver high-quality and effective solutions to meet my clients' 
                 needs. I am driven by a desire to make a difference and bring ideas to life through 
                 the power of technology.</p>
+                <ul className='grid grid-cols-2 p-2 mt-2'>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Javascript</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Swift/ SwiftUI</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> HTML</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> CSS/Tailwind</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> React.js</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Next.js</li>
+
+                </ul>
                 </div>
             </div>
             </div>

@@ -11,7 +11,7 @@ const Work = () => {
 const {ref, inView } = useInView(false)
 
 return (
-    <div name='work' className='w-full min-h-screen flex items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
+    <div name='work' className='w-full min-h-screen flex justify-center items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
         <div ref={ref}>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
@@ -23,36 +23,10 @@ return (
 
             {/* Container */}
             <div className={`${inView ? 'animate-fadeIn grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center' : 'grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'}`}>
-                {/* <div style={{backgroundImage: `url(${NetflixImg})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                   
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-[#EDEAEA] tracking-wider'>
-                            Netflix Clone
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href='/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Demo</button>
-                            </a>
-                            <a href='https://github.com/allentevyaw/Netflix-Clone'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                    Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div> */}
-
-
-
-
-
-
-
-
+  
 <div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
   <img src={Ecom} className="w-full h-full" alt="E-Commerce" />
-    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
+    <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-100 transition duration-300 ease-in-out bg-gradient-to-r from-[#2af598] via-[#1bd7bb] to-[#08b3e5] opacity-0">
 
     <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
@@ -62,9 +36,9 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://github.com/allentevyaw/Electronics-ecom'>
-            <FiGithub className='text-2xl hover:text-sky-300 pr-1'/>
+            <FiGithub className='text-2xl hover:text-gray-800 pr-1'/>
         </a>
-            <CgWebsite className='text-2xl hover:text-sky-300'/>
+            <CgWebsite className='text-2xl hover:text-gray-800'/>
         </div>
     </div>
     </div>
@@ -74,7 +48,7 @@ return (
 
 <div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
   <img src={NetflixImg} className="w-full h-full" alt="Netflix" />
-  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-90 transition duration-300 ease-in-out bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-0">
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-100 transition duration-300 ease-in-out bg-gradient-to-r from-[#2af598] via-[#1bd7bb] to-[#08b3e5] opacity-0">
 
   <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
@@ -84,9 +58,9 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://github.com/allentevyaw/Netflix-Clone'>
-            <FiGithub className='text-2xl hover:text-sky-300 pr-1'/>
+            <FiGithub className='text-2xl hover:text-gray-800 pr-1'/>
         </a>
-            <CgWebsite className='text-2xl hover:text-sky-300'/>
+            <CgWebsite className='text-2xl hover:text-gray-800'/>
         </div>
     </div>
     </div>
