@@ -22,7 +22,8 @@ const {ref, inView } = useInView()
                 </div>
             </div>
 
-            <div className={`${inView ? 'animate-fadeIn max-w-[1000px] w-full grid sm:grid-cols-2 gap-8' : 'max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'}`}>
+            <div className={`${inView ? 'animate-fadeIn max-w-[1000px] w-full grid sm:grid-cols-2 gap-8' 
+            : 'max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'}`}>
                 <div className=''>
                     <img 
                     src={Headshot} 

@@ -99,7 +99,7 @@ useEffect(() => {
 {/* Mobile menu */}
 <div className={nav ? 'md:hidden fixed left-0 top-0 w-full min-h-screen bg-[#1B2739]/70' : ''}>
     <div className={nav ? 'fixed right-0 top-0 w-[50%] sm:w-[40%] h-screen bg-[#1B2739] p-10 ease-in duration-100' : 
-                        'fixed left-[-100] top-0 p-10 ease-in duration-100'}>
+                        'fixed left-[-100] top-0 p-10 ease-in transition-all duration-100'}>
         <div className='flex w-full items-center justify-between'>
         <img src={Logo} style={{width: '80px'}}/>
 

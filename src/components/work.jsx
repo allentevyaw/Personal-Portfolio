@@ -22,7 +22,8 @@ return (
             </div>
 
             {/* Container */}
-            <div className={`${inView ? 'animate-fadeIn grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center' : 'grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'}`}>
+            <div className={`${inView ? 'animate-fadeIn grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center' 
+            : 'grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center'}`}>
   
 <div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
   <img src={Ecom} className="w-full h-full" alt="E-Commerce" />

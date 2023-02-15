@@ -54,7 +54,7 @@ const Contact = () => {
           <div className="mb-6 md:mb-0 text-center mx-auto">
             <FaGithub 
             className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
-            <h6 className="font-medium">Linkedin</h6>
+            <h6 className="font-medium">Github</h6>
           </div>
           <div className="text-center mx-auto">
             <AiOutlineMail 
