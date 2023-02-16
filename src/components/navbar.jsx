@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import { FaGithub } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
-import Logo from '../assets/AT.png'
 import { Link } from 'react-scroll';
  
 
@@ -38,7 +37,8 @@ useEffect(() => {
        <div className='flex justify-between items-center w-full'>
             <div className='cursor-pointer'>
                 <Link to="home" smooth={true} duration={500}>
-                    <img src={Logo} style={{width: '90px'}}/>
+                    {/* <img src={Logo} style={{width: '90px'}}/> */}
+                    <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>Allen T.</h1>
                 </Link>
             </div>
     <div>
@@ -101,7 +101,8 @@ useEffect(() => {
     <div className={nav ? 'fixed right-0 top-0 w-[50%] sm:w-[40%] h-screen bg-[#1B2739] p-10 ease-in duration-100' : 
                         'fixed left-[-100] top-0 p-10 ease-in transition-all duration-100'}>
         <div className='flex w-full items-center justify-between'>
-        <img src={Logo} style={{width: '80px'}}/>
+        {/* <img src={Logo} style={{width: '80px'}}/> */}
+        
 
         </div>
         <div className='border-b border-[#EDEAEA] my-4'>

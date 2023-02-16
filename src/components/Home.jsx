@@ -1,14 +1,20 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll';
+import { useInView } from 'react-intersection-observer'
+
 
 
 const Home = () => {
+    const {ref, inView } = useInView(false)
+
+
   return (
-    <div name='home' className='flex items-center w-full min-h-screen bg-[#0f161a]'>
+    <div name='home' className='flex items-center w-full min-h-screen bg-[#0f161a]' ref={ref}>
         
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div className={`${inView ? 'animate-fadeIn max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full' 
+        : 'max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'}`}>
             <p className='text-2xl text-[#64FFDA]'>Welcome, my name is</p>
             <h1 className='pt-6 text-5xl sm:text-8xl font-bold text-[#EDEAEA] text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 animate-text'>Allen Tevyaw</h1>
             <h2 className='text-4xl sm:text-6xl font-bold text-[#5170a0]'>Full Stack Developer.</h2>
