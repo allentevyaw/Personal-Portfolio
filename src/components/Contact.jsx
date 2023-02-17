@@ -52,13 +52,17 @@ const Contact = () => {
             <h6 className="font-medium">Twitter</h6>
           </div>
           <div className="mb-6 md:mb-0 text-center mx-auto">
+            <a href='https://github.com/allentevyaw'>
             <FaGithub 
             className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            </a>
             <h6 className="font-medium">Github</h6>
           </div>
           <div className="text-center mx-auto">
+            <a href='mailto:atevyaw@gmail.com'>
             <AiOutlineMail 
             className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            </a>
             <h6 className="font-medium">Email</h6>
           </div>
         </div>

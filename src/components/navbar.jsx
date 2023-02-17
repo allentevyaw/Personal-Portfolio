@@ -137,16 +137,18 @@ useEffect(() => {
 
 
         <div className='hidden fixed md:flex flex-col left-0 bottom-[-10%] pl-2'>
-            <a className='pb-4 hover:translate-y-2 duration-300'>
+            <a className='pb-4 hover:translate-y-[-4px] duration-300'>
                 <AiOutlineTwitter className='hover:text-[#64FFDA] text-2xl'/>
             </a>
-            <a className='pb-4 hover:translate-y-2 duration-300'>
+            <a className='pb-4 hover:translate-y-[-4px] duration-300'
+                href='mailto:atevyaw@gmail.com'>
                 <HiOutlineMail className='hover:text-[#64FFDA] text-2xl' />
             </a>
-            <a className='pb-4 hover:translate-y-[-4px] duration-300'>
+            <a className='pb-4 hover:translate-y-[-4px] duration-300'
+                href='https://github.com/allentevyaw'>
                 <FaGithub className='hover:text-[#64FFDA] text-2xl' />
             </a>
-            <a className='hover:translate-y-2 duration-300'>
+            <a className='hover:translate-y-[-4px] duration-300'>
                 <AiOutlineInstagram className='hover:text-[#64FFDA] text-2xl' />
             </a>
                 
