@@ -1,6 +1,5 @@
 import React from 'react'
 import NetflixImg from '../assets/netflix_build.png'
-import Meme from '../assets/meme.png'
 import Ecom from '../assets/ecom.png'
 import {FiGithub} from 'react-icons/fi'
 import {CgWebsite} from 'react-icons/cg'
@@ -71,6 +70,8 @@ return (
     </div>
   </div>
 </div>
+
+
 
 
 
