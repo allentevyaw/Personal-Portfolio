@@ -10,7 +10,7 @@ const Home = () => {
 
 
   return (
-    <div name='home' className='flex items-center w-full min-h-screen bg-[#0f161a]' ref={ref}>
+    <div name='home' className='flex items-center w-full min-h-screen bg-[#0f161a]'>
         
         {/* Container */}
         <div className={`${inView ? 'animate-fadeIn max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full' 
