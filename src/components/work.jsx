@@ -31,8 +31,8 @@ return (
     <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>E-Commerce</h1>
-    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>E-commerce web app utilizing Stripe API to handle
-        payments and MongoDB backend</p>
+    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>E-commerce web app utilizing Stripe API
+         and MongoDB backend</p>
     
     <div className='absolute bottom-0 right-0 p-2'>
         <div></div>
