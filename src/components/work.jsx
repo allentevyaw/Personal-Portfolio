@@ -50,7 +50,9 @@ return (
 
 <div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
   <img src={NetflixImg} className="w-full h-full" alt="Netflix" />
-  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden hover:opacity-100 transition duration-500 ease-in-out bg-gradient-to-r from-[#2af598] via-[#1bd7bb] to-[#08b3e5] opacity-0">
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden 
+  hover:opacity-100 transition duration-500 ease-in-out bg-gradient-to-r from-[#2af598] 
+  via-[#1bd7bb] to-[#08b3e5] opacity-0">
 
   <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Featured Project</h1>

@@ -44,24 +44,24 @@ const Contact = () => {
       <div className={`${inView ? 'animate-fadeIn text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]' : 'text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]'}`}>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-1 mb-4">
           <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineInstagram className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            <AiOutlineInstagram className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
             <h6 className="font-medium">Instagram</h6>
           </div>
           <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out]"/>
             <h6 className="font-medium">Twitter</h6>
           </div>
           <div className="mb-6 md:mb-0 text-center mx-auto">
             <a href='https://github.com/allentevyaw'>
             <FaGithub 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
             </a>
             <h6 className="font-medium">Github</h6>
           </div>
           <div className="text-center mx-auto">
             <a href='mailto:atevyaw@gmail.com'>
             <AiOutlineMail 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA]"/>
+            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
             </a>
             <h6 className="font-medium">Email</h6>
           </div>
