@@ -1,13 +1,13 @@
 {
   "name": "allen-portfolio",
-  "homepage": "http://allentevyaw.github.io/Personal-Portfolio",
+  "homepage": "http://allentevyaw.github.io/Personal-Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
