@@ -13,10 +13,10 @@ return (
     <div name='work' className='w-full min-h-screen flex justify-center items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
         <div ref={ref}>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
+            <div className='pb-8 flex justify-center'>
                 <p 
                 className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
-                    Some things I have built 
+                    SELECTED WORK
                 </p>
             </div>
 

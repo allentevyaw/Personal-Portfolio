@@ -16,7 +16,7 @@ const {ref, inView } = useInView()
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div ref={ref}>
             <div className='max-w-[1000px] w-full grid grid-cols-2'>
-                <div className='sm:text-right pb-8 pl-4 items-center '>
+                <div className='sm:text-right pb-8 pl-4 items '>
                     <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA]'>About Me 
                     </p>
                 </div>
@@ -33,21 +33,18 @@ const {ref, inView } = useInView()
                 </div>
 
                 <div>
-                <p>I am a highly skilled full stack web developer with a passion 
-                for creating innovative and user-friendly websites. With experience 
-                in <span className='text-[#64FFDA]'> React.js, JavaScript, HTML, Next.js, CSS, and iOS  mobile applications</span>, I bring a 
-                wealth of knowledge and expertise to every project I work on.</p>
-                <p className='pt-2'>My attention to detail and dedication to staying up-to-date with the latest technologies 
-                ensure that I deliver high-quality and effective solutions to meet my clients' 
-                needs. I am driven by a desire to make a difference and bring ideas to life through 
-                the power of technology.</p>
+                <p>I'm an AI storyteller, full stack developer, and artist specializing in using AI technology and code to bring ideas to life. 
+                    My background is in iOS and React development, but my passion lies in leveraging tools like 
+                 <span className='text-[#64FFDA]'> Midjourney, Adobe, Stable Diffusion, Runway, GPT4, Claude, and Pika Labs</span> to create digital art, films, video games, and interactive stories.</p>
+                <p className='pt-2'> I believe AI holds amazing potential for creativity. My work explores new AI capabilities 
+                and pushes boundaries to make something novel. I approach each project with wonder and curiosity. </p>
                 <ul className='grid grid-cols-2 p-2 mt-2'>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Javascript</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Swift/ SwiftUI</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> HTML</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> CSS/Tailwind</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> React.js</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Next.js</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Midjourney</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Adobe </li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> LLMs</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Runway</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Pika Labs</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Stable Diffusion</li>
 
                 </ul>
                 </div>

@@ -10,56 +10,22 @@ const Contact = () => {
 
 
   return (
-    <div name='contact' className='w-full min-h-screen bg-[#0f161a] flex justify-center items-center pl-4 pr-4 pt-8'>
-       
-       {/* Used Getform.io */}
-        {/* <form method='POST' action='https://getform.io/f/ab6579e6-2066-4086-994f-06aad61a1cc3' className='flex flex-col max-w-[600px] w-full'>
-            <div className='pb-8'>
-                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>Contact</p>
-                <p className='text-[#EDEAEA] py-4'>Let's build something! Fill out the contact form below 
-                or reach out on one of my social media accounts</p>
-            </div>
-            <input className='p-2 bg-[#EDEAEA] rounded-lg' type='text' placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#EDEAEA] rounded-lg' type='email' placeholder='Email' name='email' />
-            <textarea className='bg-[#EDEAEA] p-2 rounded-lg' name='message' rows='9' placeholder='Leave a message...'></textarea>
-
-
-
-            <div>
-                <p className='text-[#EDEAEA] text-sm hover:text-[#64FFDA] flex justify-center'>Designed & Built by Allen Tevyaw</p>
-            </div>
-        </form> */}
-
-
-
+    <div name='contact' className='w-full bg-[#0f161a] flex justify-center items-center'>
 
 <div className="px-4 md:px-12 pb-8" ref={ref}>
 
 <div className='pb-8'>
-                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>Let's Connect</p>
-                <p className='text-[#EDEAEA] py-4'>Let's build something! Fill out the contact form below 
-                or reach out on one of my social media accounts</p>
+                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>LET'S CONNECT</p>
             </div>
 
-      <div className={`${inView ? 'animate-fadeIn text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]' : 'text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]'}`}>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-1 mb-4">
-          <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineInstagram className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
-            <h6 className="font-medium">Instagram</h6>
-          </div>
+      <div className={`${inView ? 'animate-fadeIn text-white rounded-lg shadow-sm pt-5 pb-1 md:py-4 px-4 md:px-6 ' : 'text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]'}`}>
+        <div className="grid grid-cols-2 lg:grid-cols-2 gap-x-1 mb-4">
           <div className="mb-6 lg:mb-0 text-center mx-auto">
             <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out]"/>
-            <h6 className="font-medium">Twitter</h6>
-          </div>
-          <div className="mb-6 md:mb-0 text-center mx-auto">
-            <a href='https://github.com/allentevyaw'>
-            <FaGithub 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
-            </a>
-            <h6 className="font-medium">Github</h6>
+            <h6 className="font-medium">X</h6>
           </div>
           <div className="text-center mx-auto">
-            <a href='mailto:atevyaw@gmail.com'>
+            <a href='mailto:allent.bus@gmail.com'>
             <AiOutlineMail 
             className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
             </a>
@@ -67,7 +33,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="max-w-[700px] mx-auto">
-          <form>
+          {/* <form>
             <div className="form-group mb-6">
                 <label className='pl-2'>Name*</label>
               <input type="text" className="block
@@ -132,7 +98,7 @@ const Contact = () => {
                             Send
                         </span>
                 </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>        
