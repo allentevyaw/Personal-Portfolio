@@ -5,7 +5,7 @@ import Forever from '../assets/forever.png'
 import Ghoul from '../assets/ghoul.png'
 import Harry from '../assets/Harry.png'
 import Henry from '../assets/Henry.png'
-import Moment from '../assets/Ballerina.png'
+import Moment from '../assets/ballerina.png'
 import Clue from '../assets/Clue.png'
 import Escape from '../assets/escape.png'
 
