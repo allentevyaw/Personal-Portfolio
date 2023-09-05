@@ -37,7 +37,7 @@ useEffect(() => {
             <div className='cursor-pointer'>
                 <Link to="home" smooth={true} duration={500}>
                     {/* <img src={Logo} style={{width: '90px'}}/> */}
-                    <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>Allen T.</h1>
+                    <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>Mr.AllenT</h1>
                 </Link>
             </div>
     <div>

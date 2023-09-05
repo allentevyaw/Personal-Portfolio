@@ -41,7 +41,7 @@ const {ref, inView } = useInView()
                 <ul className='grid grid-cols-2 p-2 mt-2'>
                     <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Midjourney</li>
                     <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Adobe </li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> LLMs</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> GPT</li>
                     <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Runway</li>
                     <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Pika Labs</li>
                     <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Stable Diffusion</li>
